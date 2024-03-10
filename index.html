@@ -8,10 +8,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Fugaz+One&family=Madimi+One&display=swap" rel="stylesheet">
         <title>Florence'24</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
+        <div id="loader">
+            <h1>LET</h1>
+            <h1>THERE BE</h1>
+            <h1>HYPE</h1>
+        </div>
+        <div id="fixed-image">
+
+        </div>
         <div id="main">
             <div id="page1">
                 <nav>
@@ -31,10 +40,9 @@
                         <h1>
                             Florence'24
                             Countdown <br>
-                            00:00:00  <br>
+                            <iframe id="countdown" src="https://free.timeanddate.com/countdown/i9a1euyx/n1763/cf100/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fn3/fs250/szw320/szh135/iso2024-04-24T00:00:00/pd2" allowtransparency="true" frameborder="0" width="320" height="135"></iframe>
                         </h1>
                     </div>
-
                 </div>
 
                 <div id="hero-shape">
@@ -88,30 +96,72 @@
                 <div id="featured-events">
                     <h4><img class="bullet" src="images/icon.png" alt="">Featured Events</h4>
                 </div>
-                <div class="elem">
-                    <div class="overlay"></div>
-                    <h2>Shark Tank</h2>
+                <div id="elem-container">
+                    <div id="elem1" class="elem"
+                        data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="overlay"></div>
+                        <h2>Shark Tank</h2>
+                    </div>
+                    <div class="elem"
+                        data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8">
+                        <div class="overlay"></div>
+                        <h2>Robo War</h2>
+                    </div>
+                    <div class="elem"
+                        data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="overlay"></div>
+                        <h2>E-Sports</h2>
+                    </div>
+                    <div class="elem"
+                        data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="overlay"></div>
+                        <h2>Music</h2>
+                    </div>
+                    <div class="elem"
+                        data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="overlay"></div>
+                        <h2>Dance</h2>
+                    </div>
+                    <div class="elem"
+                        data-image="https://images.unsplash.com/photo-1700601437860-e66da79cf6d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="overlay"></div>
+                        <h2>Event ?</h2>
+                    </div>
+                    <div class="elem"
+                        data-image="https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OXx8fGVufDB8fHx8fA%3D%3D">
+                        <div class="overlay"></div>
+                        <h2>Event ?</h2>
+                    </div>
                 </div>
-                <div class="elem">
-                    <div class="overlay"></div>
-                    <h2>Robo War</h2>
+            </div>
+            <div id="page4">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">sponsor 1</div>
+                        <div class="swiper-slide">sponsor 2</div>
+                        <div class="swiper-slide">sponsor 3</div>
+                        <div class="swiper-slide">sponsor 4</div>
+                        <div class="swiper-slide">sponsor 5</div>
+                        <div class="swiper-slide">sponsor 6</div>
+                        <div class="swiper-slide">sponsor 7</div>
+                    </div>
                 </div>
-                <div class="elem">
-                    <div class="overlay"></div>
-                    <h2>Music</h2>
-                </div>
-                <div class="elem">
-                    <div class="overlay"></div>
-                    <h2>E-Sports</h2>
-                </div>
+            </div>
+            <div id="page5">
             </div>
         </div>
 
+        <div id="footer">
+            <div id="footer-div"></div>
+            <h1>Florence'24</h1>
+            <div id="footer-bottom"></div>
+        </div>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
